@@ -57,6 +57,9 @@ body {
 }
 
 .apresentacao__button {
+    justify-content: center;
+    gap: 16px;
+    display: flex;
     padding: 21.5px 0px;
     border-radius: 8px;
     border: 2px solid #22D4FD;
@@ -67,4 +70,9 @@ body {
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+}
+
+
+.apresentacao__button:hover {
+    background-color: #272727;
 }
