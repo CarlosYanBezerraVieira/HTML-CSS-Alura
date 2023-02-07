@@ -40,9 +40,19 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.apresentacao__links__subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
 .apresentacao__links {
     display: flex;
+    gap: 32px;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+
 
 }
 
