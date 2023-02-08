@@ -73,24 +73,29 @@ body {
 
 }
 
-.apresentacao__button {
-    justify-content: center;
-    gap: 16px;
+.apresentacao__section_button {
     display: flex;
+    width: 378px;
+    justify-content: center;
     padding: 21.5px 0px;
     border-radius: 8px;
     border: 2px solid #22D4FD;
-    width: 378px;
-    text-align: center;
-    color: #F6F6F6;
     text-decoration: none;
+}
+
+.apresentacao__button {
+    gap: 16px;
+    width: 180px;
     font-size: 24px;
+    color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    align-items: end;
+    display: flex;
 }
 
 
-.apresentacao__button:hover {
+.apresentacao__section_button:hover {
     background-color: #272727;
 }
 
