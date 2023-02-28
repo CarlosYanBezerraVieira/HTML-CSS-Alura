@@ -53,7 +53,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    width: 615px;
+    width: 50%;
 }
 
 .apresentacao__conteudo__titulo {
@@ -99,7 +99,7 @@ body {
 
 .apresentacao__section__button {
     display: flex;
-    width: 378px;
+    width: 70%;
     justify-content: center;
     padding: 21.5px 0px;
     border-radius: 8px;
@@ -125,14 +125,14 @@ body {
 
 
 .main_image {
-    width: 488px;
-    height: 532px;
+    width: 40%;
+    height: 40%;
     transition: width 1s, height 1s;
 }
 
 .main_image:hover {
-    width: 520px;
-    height: 562px;
+    width: 43%;
+    height: 43%;
 }
 
 .rodape {
